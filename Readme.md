@@ -1,5 +1,9 @@
 # Game - Genesis 🎮
 
+![GitHub repo size](https://img.shields.io/github/repo-size/allbertuu/game-genesis?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/allbertuu/game-genesis?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/allbertuu/game-genesis?style=for-the-badge)
+
 > 🕹 Um mini jogo de memória baseado no game popular _Genius_, em uma página divertida e responsiva, desenvolvida sob o conceito ***mobile-first***.
 🚀 [Acesse o site aqui!](https://allbertuu.github.io/game-genesis/) 🚀  
 
