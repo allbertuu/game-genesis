@@ -16,7 +16,7 @@
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
 - [x] Dificuldade dinâmica
-- [x] Área dinâmica com as cores restantes para ganhar
+- [x] Área dinâmica com as cores restantes para passar de nível
 - [x] Controle do clique do usuário
 - [ ] Área de recordes pessoais e públicos (ranking)
 
