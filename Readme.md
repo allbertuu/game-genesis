@@ -9,7 +9,16 @@
 
 ## ⭐ Projeto
 ***Preview***  
-<img src="./screenshots/banner.png" alt="Imagem de vizualização do site">  
+<img src="./screenshots/banner.png" alt="Imagem de vizualização do site">
+
+### ⚙ Ajustes e melhorias
+
+O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
+
+- [x] Dificuldade dinâmica
+- [x] Área dinâmica com as cores restantes para ganhar
+- [x] Controle do clique do usuário
+- [ ] Área de recordes pessoais e públicos (ranking)
 
 ## 💻 Tecnologias usadas
 - JavaScript ES6

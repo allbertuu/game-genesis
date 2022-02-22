@@ -5,6 +5,7 @@ let difficulty = 150;
 let colorsLeft = score;
 let howManyColorsLeft = document.getElementById("quantasCoresRestam");
 let elementGenius = document.querySelector(".genius");
+let count = 1;
 
 // 0- blue, 1- yellow, 2- red, 3- green
 
@@ -12,7 +13,6 @@ const blue = document.querySelector('.blue');
 const yellow = document.querySelector('.yellow');
 const red = document.querySelector('.red');
 const green = document.querySelector('.green');
-
 
 // ordem aleatória de cores
 let shuffleOrder = () => {
@@ -27,9 +27,15 @@ let shuffleOrder = () => {
             lightColor(elementColor, Number(i + 1));
         }, 600);
     }
+    setTimeout(() => {
+        elementGenius.classList.toggle('disabled')
+        count++;
+    }, count * 1200);
+    elementGenius.classList.toggle('disabled');
     howManyColorsLeft.innerHTML = score;
     colorsLeft = score;
     setColorNumber();
+
 }
 
 // acende a próxima cor
@@ -109,7 +115,7 @@ let createColorElement = (color) => {
 let nextLevel = () => {
     score++; // aumenta o score
     clickedOrder = Array(); // zera o array de clicados
-    shuffleOrder();
+    shuffleOrder(); // embaralhar cores
 }
 
 // função game over
