@@ -9,10 +9,10 @@ let count = 1;
 
 // 0- blue, 1- yellow, 2- red, 3- green
 
-const blue = document.querySelector('.blue');
-const yellow = document.querySelector('.yellow');
-const red = document.querySelector('.red');
-const green = document.querySelector('.green');
+const BLUE = document.querySelector('.blue');
+const YELLOW = document.querySelector('.yellow');
+const RED = document.querySelector('.red');
+const GREEN = document.querySelector('.green');
 
 // ordem aleatória de cores
 let shuffleOrder = () => {
@@ -101,13 +101,13 @@ let click = (color) => {
 // função que retorna a cor
 let createColorElement = (color) => {
     if (color == 0) {
-        return blue;
+        return BLUE;
     } else if (color == 1) {
-        return yellow;
+        return YELLOW;
     } else if (color == 2) {
-        return red;
+        return RED;
     } else if (color == 3) {
-        return green;
+        return GREEN;
     }
 }
 
@@ -121,7 +121,7 @@ let nextLevel = () => {
 // função game over
 let lose = () => {
     alert(`Pontuação: ${score}!\nVocê perdeu o jogo ❌. Clique em OK para iniciar um novo jogo`);
-    howManyColorsLeft.innerHTML = colorsLeft;
+    howManyColorsLeft.innerText = colorsLeft;
     playGame();
 }
 
@@ -135,9 +135,9 @@ let playGame = () => {
 }
 
 // eventos de clique das cores
-green.onclick = () => click(3);
-red.onclick = () => click(2);
-yellow.onclick = () => click(1);
-blue.onclick = () => click(0);
+GREEN.onclick = () => click(3);
+RED.onclick = () => click(2);
+YELLOW.onclick = () => click(1);
+BLUE.onclick = () => click(0);
 
 playGame();
