@@ -519,6 +519,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  --tw-text-opacity: 1;
+  color: rgb(55 65 81 / var(--tw-text-opacity));
 }
 
 @media (min-width: 640px) {
@@ -567,6 +569,17 @@ Ensure the default browser behavior of the `hidden` attribute.
   .genius {
     width: 700px;
     height: 700px;
+  }
+}
+
+.howManyColorsLeft {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+@media (min-width: 640px) {
+  .howManyColorsLeft {
+    margin-top: 1.5rem;
   }
 }
 
@@ -764,10 +777,6 @@ body#home h1 {
   margin-bottom: 1.25rem;
 }
 
-.mt-4 {
-  margin-top: 1rem;
-}
-
 .text-center {
   text-align: center;
 }
@@ -793,11 +802,6 @@ body#home h1 {
   font-style: italic;
 }
 
-.text-gray-700 {
-  --tw-text-opacity: 1;
-  color: rgb(55 65 81 / var(--tw-text-opacity));
-}
-
 .selected {
   opacity: 0.4;
 }
@@ -809,10 +813,6 @@ body#home h1 {
 @media (min-width: 640px) {
   .sm\:m-10 {
     margin: 2.5rem;
-  }
-
-  .sm\:mt-6 {
-    margin-top: 1.5rem;
   }
 
   .sm\:text-xl {
