@@ -10,6 +10,7 @@
 
 ## 💬 Sobre o projeto
 > Este projeto foi criado com o objetivo de colocar em prática os conhecimentos adquiridos em JavaScript ES6.
+>
 > Utilizei conceitos avançados de manipulação do DOM (Document Object Model), utilizando de Arrays, mudança de classes em elementos de forma dinâmica, lógica de jogo com dificuldade e controle de clique do usuário, além de uma área dinâmica que serve para o jogador verificar seu progresso até chegar com sucesso ao próximo nível.
 
 ### ⚙ Ajustes e melhorias
@@ -40,3 +41,5 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
     </td>
   </tr>
 </table>
+
+[⬆ Voltar ao topo](#game-genesis)<br>
