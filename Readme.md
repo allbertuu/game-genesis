@@ -42,4 +42,4 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
   </tr>
 </table>
 
-[⬆ Voltar ao topo](#game-genesis)<br>
+[⬆ Voltar ao topo](#game---genesis-)<br>
