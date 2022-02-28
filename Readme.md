@@ -4,12 +4,13 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/allbertuu/game-genesis?style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/allbertuu/game-genesis?style=for-the-badge)
 
-> 🕹 Um mini jogo de memória baseado no game popular _Genius_, em uma página divertida e responsiva, desenvolvida sob o conceito ***mobile-first***.
-🚀 [Acesse o site aqui!](https://allbertuu.github.io/game-genesis/) 🚀  
-
-## ⭐ Projeto
-***Preview***  
 <img src="./screenshots/banner.png" alt="Imagem de vizualização do site">
+
+🚀 [Acesse o site aqui!](https://allbertuu.github.io/game-genesis/) 🚀 
+
+## 💬 Sobre o projeto
+> Este projeto foi criado com o objetivo de colocar em prática os conhecimentos adquiridos em JavaScript ES6.
+> Utilizei conceitos avançados de manipulação do DOM (Document Object Model), utilizando de Arrays, mudança de classes em elementos de forma dinâmica, lógica de jogo com dificuldade e controle de clique do usuário, além de uma área dinâmica que serve para o jogador verificar seu progresso até chegar com sucesso ao próximo nível.
 
 ### ⚙ Ajustes e melhorias
 
@@ -22,8 +23,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 
 ## 💻 Tecnologias usadas
 - JavaScript ES6
-- HTML
-- CSS
+- HTML & CSS
 - TailwindCSS
 
 ## 💡 Idealizado e feito por
